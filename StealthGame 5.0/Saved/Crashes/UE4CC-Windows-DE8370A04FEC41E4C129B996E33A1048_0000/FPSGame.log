@@ -1,0 +1,1739 @@
+﻿Log file open, 02/24/21 06:21:28
+LogInit: Display: Running engine for game: FPSGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 6.776231
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 3 2200G with Radeon Vega Graphics    , GPU: NVIDIA GeForce GTX 1050
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.23-23.21.40:284][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.23-23.21.40:284][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.23-23.21.40:285][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Engine.ini]
+[2021.02.23-23.21.40:285][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.23-23.21.40:285][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Engine.ini]
+[2021.02.23-23.21.40:285][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Engine.ini]
+[2021.02.23-23.21.40:285][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.23-23.21.40:285][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.23-23.21.40:285][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.23-23.21.40:285][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.23-23.21.40:285][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.23-23.21.40:285][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.23-23.21.40:285][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.23-23.21.40:285][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.23-23.21.40:285][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.23-23.21.40:285][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Engine.ini]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.23-23.21.40:286][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Engine.ini]
+[2021.02.23-23.21.40:286][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Engine.ini]
+[2021.02.23-23.21.40:385][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.23-23.21.40:385][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.23-23.21.40:386][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.23-23.21.40:408][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.23-23.21.40:408][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.23-23.21.40:425][  0]LogHAL: Display: Platform has ~ 8 GB [8515350528 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.23-23.21.40:425][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.23-23.21.40:445][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.23-23.21.40:445][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Scalability.ini]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.23-23.21.40:446][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.23-23.21.40:559][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.23-23.21.40:559][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.23-23.21.40:559][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.23-23.21.40:559][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Config/Windows/Engine.ini]
+[2021.02.23-23.21.40:572][  0]LogInit: Computer: DESKTOP-84S5OKE
+[2021.02.23-23.21.40:572][  0]LogInit: User: eriko
+[2021.02.23-23.21.40:572][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.02.23-23.21.40:572][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.23-23.21.40:572][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.02.23-23.21.40:572][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.23-23.21.40:572][  0]LogMemory: Process Physical Memory: 114.98 MB used, 114.98 MB peak
+[2021.02.23-23.21.40:572][  0]LogMemory: Process Virtual Memory: 97.09 MB used, 97.09 MB peak
+[2021.02.23-23.21.40:572][  0]LogMemory: Physical Memory: 4489.12 MB used,  3631.75 MB free, 8120.87 MB total
+[2021.02.23-23.21.40:572][  0]LogMemory: Virtual Memory: 5130.56 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2021.02.23-23.21.40:648][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.23-23.21.48:112][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.23-23.21.48:193][  0]LogInit: Using OS detected language (en-US).
+[2021.02.23-23.21.48:193][  0]LogInit: Using OS detected locale (en-ID).
+[2021.02.23-23.21.49:224][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.02.23-23.21.57:070][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.23-23.22.02:444][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.23-23.22.02:444][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.23-23.22.13:520][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.23-23.22.13:520][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.23-23.22.13:520][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.23-23.22.13:520][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.23-23.22.13:661][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2021.02.23-23.22.13:661][  0]LogD3D11RHI:       1977/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.02.23-23.22.13:665][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.23-23.22.13:665][  0]LogD3D11RHI:       0/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.23-23.22.13:665][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.23-23.22.13:906][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.23-23.22.13:906][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.23-23.22.13:906][  0]LogWindows: EnumDisplayDevices:
+[2021.02.23-23.22.13:906][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2021.02.23-23.22.13:907][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2021.02.23-23.22.13:907][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2021.02.23-23.22.13:907][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2021.02.23-23.22.13:908][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.02.23-23.22.13:908][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2021.02.23-23.22.13:908][  0]LogD3D11RHI:   Driver Version: 460.89 (internal:27.21.14.6089, unified:460.89)
+[2021.02.23-23.22.13:908][  0]LogD3D11RHI:      Driver Date: 12-11-2020
+[2021.02.23-23.22.13:908][  0]LogRHI: Texture pool is 1384 MB (70% of 1977 MB)
+[2021.02.23-23.22.14:158][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.23-23.22.14:159][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.23-23.22.14:159][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.23-23.22.17:320][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.23-23.22.21:312][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.23-23.22.21:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.23-23.22.21:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.23-23.22.21:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.23-23.22.21:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.23-23.22.21:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.23-23.22.21:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.23-23.22.21:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.23-23.22.21:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.23-23.22.21:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.23-23.22.21:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.23-23.22.22:591][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.23-23.22.22:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.23-23.22.22:992][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.23-23.22.23:343][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.23-23.22.23:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.23-23.22.23:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.23-23.22.24:130][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.23-23.22.24:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.23-23.22.24:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.23-23.22.25:149][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.23-23.22.25:149][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.23-23.22.25:359][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.23-23.22.25:359][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.23-23.22.25:712][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.23-23.22.26:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.23-23.22.26:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.23-23.22.26:589][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.23-23.22.26:589][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.23-23.22.28:432][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.23-23.22.37:473][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Intermediate/Shaders/WorkingDirectory/2700/).
+[2021.02.23-23.22.37:474][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/eriko/AppData/Local/Temp/UnrealShaderWorkingDir/05ED0C8F41B684B1E195089D4C86B10A/'.
+[2021.02.23-23.22.37:522][  0]LogXGEController: Cleaning working directory: C:/Users/eriko/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.02.23-23.22.37:522][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.02.23-23.22.37:522][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.23-23.22.37:522][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.23-23.23.01:060][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.23-23.23.01:371][  0]LogDerivedDataCache: Loaded boot cache 0.31s 77MB C:/Users/eriko/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.23-23.23.01:371][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/eriko/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.02.23-23.23.01:371][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.23-23.23.01:371][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.23-23.23.01:371][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.23-23.23.01:371][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.23-23.23.02:059][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.23-23.23.02:059][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.23-23.23.02:059][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.23-23.23.02:061][  0]LogDerivedDataCache: Using Local data cache path C:/Users/eriko/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.23-23.23.02:061][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.23-23.23.02:061][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.23-23.23.04:671][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.23-23.23.05:763][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.23-23.23.13:331][  0]LogAssetRegistry: FAssetRegistry took 0.3153 seconds to start up
+[2021.02.23-23.23.43:947][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.23-23.23.49:121][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.23-23.23.49:121][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.23-23.23.49:121][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.23-23.23.49:121][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.23-23.23.49:142][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.23-23.23.51:350][  0]LogNetVersion: FPSGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1304077534)
+[2021.02.23-23.24.21:813][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000018E6BF62980), frame # 0
+[2021.02.23-23.24.21:813][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E6BE16AC0), frame # 0
+[2021.02.23-23.24.21:853][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E6BE71C00), frame # 0
+[2021.02.23-23.24.22:694][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.241496 seconds
+[2021.02.23-23.24.22:745][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.02.23-23.24.22:757][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.02.23-23.24.22:757][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.23-23.24.34:334][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.23-23.24.34:444][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.23-23.24.39:406][  0]SourceControl: Source control is disabled
+[2021.02.23-23.24.39:427][  0]SourceControl: Source control is disabled
+[2021.02.23-23.24.39:651][  0]SourceControl: Source control is disabled
+[2021.02.23-23.24.39:736][  0]SourceControl: Source control is disabled
+[2021.02.23-23.24.39:832][  0]SourceControl: Source control is disabled
+[2021.02.23-23.24.46:503][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.23-23.24.46:845][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.23-23.24.46:845][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.23-23.24.47:869][  0]LogOcInput: OculusInput pre-init called
+[2021.02.23-23.24.48:124][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.23-23.24.48:124][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.23-23.24.51:402][  0]LogEngine: Initializing Engine...
+[2021.02.23-23.24.51:538][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.23-23.24.51:545][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.23-23.24.51:615][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.028 s
+[2021.02.23-23.24.53:334][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.23-23.24.54:400][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.23-23.24.54:400][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E6F20DA00), frame # 0
+[2021.02.23-23.24.54:404][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E6F1E7B00), frame # 0
+[2021.02.23-23.24.54:732][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-23.24.54:732][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-23.24.54:732][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-23.24.54:732][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-23.24.54:732][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-23.24.54:732][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-23.24.54:732][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-23.24.54:732][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-23.24.54:761][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-23.24.54:764][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-23.24.55:010][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-23.24.55:010][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-23.24.55:101][  0]LogAudioMixer: Display: Using Audio Device Speakers (USB Audio Device)
+[2021.02.23-23.24.55:172][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-23.24.55:248][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-23.24.55:255][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-23.24.55:270][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-23.24.55:272][  0]LogInit: FAudioDevice initialized.
+[2021.02.23-23.24.55:304][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.23-23.24.55:393][  0]LogDerivedDataCache: Saved boot cache 0.09s 77MB C:/Users/eriko/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.23-23.24.55:404][  0]LogInit: Texture streaming: Enabled
+[2021.02.23-23.24.55:887][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.23-23.24.55:887][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.23-23.24.55:946][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.23-23.24.57:244][  0]LogInit: Transaction tracking system initialized
+[2021.02.23-23.24.59:171][  0]BlueprintLog: New page: Editor Load
+[2021.02.23-23.25.03:886][  0]LocalizationService: Localization service is disabled
+[2021.02.23-23.25.14:320][  0]LogFileCache: Scanning file cache for directory 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/' took 0.11s
+[2021.02.23-23.25.14:320][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.02.23-23.25.14:336][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.23-23.25.24:980][  0]SourceControl: Source control is disabled
+[2021.02.23-23.25.25:047][  0]LogUnrealEdMisc: Loading editor; pre map load, took 264.698
+[2021.02.23-23.25.25:143][  0]Cmd: MAP LOAD FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.23-23.25.25:187][  0]LightingResults: New page: Lighting Build
+[2021.02.23-23.25.25:730][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.23-23.25.25:730][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-23.25.25:809][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-23.25.25:929][  0]MapCheck: New page: Map Check
+[2021.02.23-23.25.25:929][  0]LightingResults: New page: Lighting Build
+[2021.02.23-23.25.27:246][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E6F20DA00), frame # 0
+[2021.02.23-23.25.27:246][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E6F1E7B00), frame # 0
+[2021.02.23-23.25.27:285][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.02.23-23.25.30:125][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.23-23.25.30:125][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E60B62200), frame # 0
+[2021.02.23-23.25.30:125][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E60B83380), frame # 0
+[2021.02.23-23.25.31:454][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.23-23.25.31:607][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.02.23-23.25.31:625][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.23-23.25.31:641][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 15.847ms to complete.
+[2021.02.23-23.25.31:642][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 6.579
+[2021.02.23-23.25.35:129][  0]LogUnrealEdMisc: Total Editor Startup Time, took 274.781
+[2021.02.23-23.25.37:421][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-23.25.37:435][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-23.25.37:445][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-23.25.37:454][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-23.25.37:856][  0]LogCollectionManager: Loaded 0 collections in 0.000850 seconds
+[2021.02.23-23.25.38:395][  0]LogFileCache: Scanning file cache for directory 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Collections/' took 0.00s
+[2021.02.23-23.25.38:395][  0]LogFileCache: Scanning file cache for directory 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Developers/eriko/Collections/' took 0.00s
+[2021.02.23-23.25.38:395][  0]LogFileCache: Scanning file cache for directory 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Collections/' took 0.00s
+[2021.02.23-23.25.38:395][  0]LogContentBrowser: Native class hierarchy populated in 0.1145 seconds. Added 3434 classes and 825 folders.
+[2021.02.23-23.25.38:568][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.02.23-23.25.41:105][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.23-23.25.41:776][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2021.02.23-23.25.44:526][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.02.23-23.25.44:526][  0]LogLoad: (Engine Initialization) Total time: 284.18 seconds
+[2021.02.23-23.25.44:526][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.23-23.25.45:702][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.23-23.25.45:943][  0]LogSlate: Took 0.032767 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.23-23.25.46:009][  0]LogSlate: Took 0.047219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.23-23.25.48:078][  1]LogRenderer: Reallocating scene render targets to support 696x360 Format 10 NumSamples 1 (Frame:1).
+[2021.02.23-23.25.49:877][  2]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.23-23.25.51:173][  2]LogAssetRegistry: Asset discovery search completed in 157.8444 seconds
+[2021.02.23-23.25.51:358][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.001643 seconds (updated 0 objects)
+[2021.02.23-23.25.51:516][  2]LogSlate: Took 0.097481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.23-23.55.34:258][524]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/SpawnBox_M_Inst.SpawnBox_M_Inst
+[2021.02.23-23.55.36:191][524]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ExtractionZone.BP_ExtractionZone
+[2021.02.23-23.55.37:348][524]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
+[2021.02.23-23.55.39:288][524]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_GamOVer.WBP_GamOver
+[2021.02.23-23.55.40:706][524]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.02.23-23.55.41:989][524]LogSlate: Took 0.032539 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.23-23.55.42:057][524]LogSlate: Took 0.036219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.23-23.55.42:508][525]LogSlate: Took 0.023025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.02.23-23.55.44:337][650]LogRenderer: Reallocating scene render targets to support 868x548 Format 10 NumSamples 1 (Frame:1).
+[2021.02.23-23.55.45:702][774]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-23.55.45:702][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-23.55.48:521][ 24]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-23.55.48:521][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-23.55.51:722][307]LogSlate: Window 'BP_GameMode' being destroyed
+[2021.02.23-23.57.06:139][521]BlueprintLog: New page: Compile BP_GameMode
+[2021.02.23-23.57.06:427][521]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2021.02.23-23.57.06:573][521]LogSlate: Took 0.027801 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.02.23-23.57.07:417][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2021.02.23-23.57.07:629][614]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/BP_GameModeB0E7FEEB449995EF4ECA11AB2CDADBEF.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset'
+[2021.02.23-23.57.07:705][614]AssetCheck: New page: Asset Save: BP_GameMode
+[2021.02.23-23.57.07:707][614]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.02.23-23.57.11:197][964]LogSlate: Took 0.000937 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.23-23.57.29:560][982]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.02.23-23.57.44:043][ 84]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_SpectatingViewpoint.BP_SpectatingViewpoint
+[2021.02.23-23.58.00:154][544]BlueprintLog: New page: Compile BP_SpectatingViewpoint
+[2021.02.23-23.58.00:276][544]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2021.02.23-23.58.08:146][436]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-23.58.08:146][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-23.58.17:830][431]LogEditorViewport: Clicking on Actor (context menu): BP_SpectatingViewpoint_C (BP_SpectatingViewpoint)
+[2021.02.23-23.58.48:390][260]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2021.02.23-23.59.18:935][712]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.02.23-23.59.38:894][ 16]BlueprintLog: New page: Compile BP_GameMode
+[2021.02.23-23.59.39:039][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2021.02.23-23.59.42:757][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2021.02.23-23.59.42:779][447]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/BP_GameMode0B952FC14AA0422618EA6F9F083DDC5D.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset'
+[2021.02.23-23.59.42:796][447]AssetCheck: New page: Asset Save: BP_GameMode
+[2021.02.23-23.59.42:796][447]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.02.23-23.59.47:920][  0]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.23-23.59.48:102][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.23-23.59.48:161][  0]PIE: New page: PIE session: FirstPersonExampleMap (Feb 24, 2021, 1:59:48 PM)
+[2021.02.23-23.59.48:221][  0]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.02.23-23.59.48:225][  0]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.02.23-23.59.48:239][  0]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.23-23.59.48:310][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070300s)
+[2021.02.23-23.59.48:325][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.23-23.59.48:325][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018EC3BC8800), frame # 28000
+[2021.02.23-23.59.48:325][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018EBAEDE200), frame # 28000
+[2021.02.23-23.59.48:326][  0]LogPlayLevel: PIE: World Init took: (0.015703s)
+[2021.02.23-23.59.48:327][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.087569s)
+[2021.02.23-23.59.48:419][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2021.02.23-23.59.48:423][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.23-23.59.48:423][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.23-23.59.48:423][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.23-23.59.48:423][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.23-23.59.48:423][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.23-23.59.48:423][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.23-23.59.48:423][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.23-23.59.48:423][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.23-23.59.48:424][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.23-23.59.48:424][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.23-23.59.48:443][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.23-23.59.48:443][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.23-23.59.48:494][  0]LogAudioMixer: Display: Using Audio Device Speakers (USB Audio Device)
+[2021.02.23-23.59.48:494][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.23-23.59.48:494][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.23-23.59.48:494][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.23-23.59.48:495][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.23-23.59.48:512][  0]LogInit: FAudioDevice initialized.
+[2021.02.23-23.59.48:610][  0]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.23-23.59.48:645][  0]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.02.24-06.59.48
+[2021.02.23-23.59.48:654][  0]LogWorld: Bringing up level for play took: 0.030847
+[2021.02.23-23.59.48:655][  0]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.02.23-23.59.48:858][  0]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2021.02.23-23.59.49:026][  0]PIE: Server logged in
+[2021.02.23-23.59.49:027][  0]PIE: Play in editor total start time 1.066 seconds.
+[2021.02.23-23.59.53:824][443]LogTemp: Overlapped with extraction zone!
+[2021.02.23-23.59.55:389][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-23.59.55:390][613]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.23-23.59.55:390][613]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.23-23.59.55:426][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-23.59.55:513][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.23-23.59.55:540][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.23-23.59.55:669][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.23-23.59.55:690][613]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018EBAEDE200), frame # 28613
+[2021.02.23-23.59.55:690][613]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018EC3BC8800), frame # 28613
+[2021.02.23-23.59.55:774][613]LogUObjectHash: Compacting FUObjectHashTables data took   6.21ms
+[2021.02.23-23.59.55:810][614]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.02.24-00.00.06:551][835]BlueprintLog: New page: Compile BP_GameMode
+[2021.02.24-00.00.06:627][835]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2021.02.24-00.00.52:010][643]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.02.24-00.00.53:476][643]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/FirstPersonExampleMap_Auto10176624B4D43E32A391187BC2F1994BE.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Autosaves/Game/Maps/FirstPersonExampleMap_Auto1.umap'
+[2021.02.24-00.00.53:565][643]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/FirstPersonExampleMap' took 1.588
+[2021.02.24-00.00.53:565][643]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.588
+[2021.02.24-00.00.53:566][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_GameMode] ([1] browsable assets)...
+[2021.02.24-00.00.53:566][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_GameMode]
+[2021.02.24-00.00.53:566][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Autosaves/Game/Blueprints/BP_GameMode_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.02.24-00.00.53:585][643]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/BP_GameMode_Auto119107C224BAFC2591F1F25A1AAA4E816.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Autosaves/Game/Blueprints/BP_GameMode_Auto1.uasset'
+[2021.02.24-00.00.53:726][643]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_SpectatingViewpoint] ([1] browsable assets)...
+[2021.02.24-00.00.53:779][643]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_SpectatingViewpoint.BP_SpectatingViewpoint]
+[2021.02.24-00.00.53:779][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_SpectatingViewpoint]
+[2021.02.24-00.00.53:812][643]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/BP_SpectatingViewpoint_Auto12C590D9848835DFC00CAFFB4968F08C7.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/Autosaves/Game/Blueprints/BP_SpectatingViewpoint_Auto1.uasset'
+[2021.02.24-00.00.53:813][643]LogFileHelpers: Auto-saving content packages took 0.247
+[2021.02.24-00.00.55:891][651]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.01.11:916][699]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.01.22:005][729]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.01.30:477][754]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.01.34:481][766]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.02.06:946][863]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.02.25:023][917]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.03.23:085][ 91]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.03.28:764][108]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.03.30:782][114]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.04.56:362][370]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.05.20:748][443]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.05.25:760][458]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.05.27:433][463]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.06.20:528][622]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.07.05:238][756]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.07.09:912][770]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.08.01:294][924]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.08.45:998][ 58]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.08.52:381][ 77]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.08.55:392][ 86]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.10.14:442][323]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.11.45:185][595]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.13.04:246][467]LogRenderer: Reallocating scene render targets to support 1048x572 Format 10 NumSamples 1 (Frame:8850).
+[2021.02.24-00.13.05:690][564]Candidate modules for hot reload:
+[2021.02.24-00.13.05:690][564]  FPSGame
+[2021.02.24-00.13.05:701][564]Launching UnrealBuildTool... [E:/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSGame,1452 FPSGameEditor Win64 Development -Project="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/FPSGame.uproject" "D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/FPSGame.uproject"  -IgnoreJunk]
+[2021.02.24-00.13.06:230][564]Warning: Starting HotReload took  1.0s.
+[2021.02.24-00.13.06:678][567]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.18.33:320][149]CompilerResultsLog: New page: Compilation - Feb 24, 2021, 2:18:33 PM
+[2021.02.24-00.18.33:333][149]CompilerResultsLog: Parsing headers for FPSGameEditor
+[2021.02.24-00.18.33:333][149]CompilerResultsLog:   Running UnrealHeaderTool "D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\FPSGame.uproject" "D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\eriko\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.24-00.18.33:333][149]CompilerResultsLog: Reflection code generated for FPSGameEditor in 47,1739882 seconds
+[2021.02.24-00.18.33:333][149]CompilerResultsLog: Building FPSGameEditor...
+[2021.02.24-00.18.33:333][149]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.24-00.18.33:333][149]CompilerResultsLog: [Upgrade]
+[2021.02.24-00.18.33:334][149]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2021.02.24-00.18.33:334][149]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2021.02.24-00.18.33:334][149]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2021.02.24-00.18.33:334][149]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2021.02.24-00.18.33:334][149]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in FPSGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2021.02.24-00.18.33:334][149]CompilerResultsLog: [Upgrade]
+[2021.02.24-00.18.33:334][149]CompilerResultsLog: Building 7 actions with 4 processes...
+[2021.02.24-00.18.33:334][149]CompilerResultsLog:   [1/7] FPSGame.init.gen.cpp
+[2021.02.24-00.18.33:334][149]CompilerResultsLog:   [2/7] FPSGameMode.gen.cpp
+[2021.02.24-00.18.33:334][149]CompilerResultsLog:   [3/7] FPSGameMode.cpp
+[2021.02.24-00.18.33:334][149]CompilerResultsLog:   [4/7] FPSExtractionZone.cpp
+[2021.02.24-00.18.33:334][149]CompilerResultsLog:   [5/7] UE4Editor-FPSGame-1452.lib
+[2021.02.24-00.18.33:334][149]CompilerResultsLog:      Creating library D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-1452.lib and object D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-1452.exp
+[2021.02.24-00.18.33:334][149]CompilerResultsLog:   [6/7] UE4Editor-FPSGame-1452.dll
+[2021.02.24-00.18.33:334][149]CompilerResultsLog:      Creating library D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-1452.suppressed.lib and object D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-1452.suppressed.exp
+[2021.02.24-00.18.33:334][149]CompilerResultsLog:   [7/7] FPSGameEditor.target
+[2021.02.24-00.18.33:334][149]CompilerResultsLog: Total time in Parallel executor: 273,02 seconds
+[2021.02.24-00.18.33:334][149]CompilerResultsLog: Total execution time: 326,68 seconds
+[2021.02.24-00.18.33:334][149]LogMainFrame: MainFrame: Module compiling took 327.704 seconds
+[2021.02.24-00.18.33:401][149]LogClass: Could not find existing class FPSGameMode in package /Script/FPSGame for HotReload, assuming new class
+[2021.02.24-00.18.33:428][149]LogHotReload: Re-instancing FPSGameMode after hot-reload.
+[2021.02.24-00.18.33:509][149]LogContentBrowser: Native class hierarchy updated for 'FPSGame' in 0.0005 seconds. Added 7 classes and 4 folders.
+[2021.02.24-00.18.33:521][149]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2021.02.24-00.18.34:161][149]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 3434 classes and 825 folders.
+[2021.02.24-00.18.34:183][149]Display: HotReload took 329.0s.
+[2021.02.24-00.29.19:790][343]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.02.24-00.29.27:210][192]BlueprintLog: New page: Compile BP_GameMode
+[2021.02.24-00.29.27:343][192]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2021.02.24-00.29.27:763][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2021.02.24-00.29.27:877][236]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/BP_GameMode032F184E43635D82643A668AC9526A3F.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset'
+[2021.02.24-00.29.27:899][236]AssetCheck: New page: Asset Save: BP_GameMode
+[2021.02.24-00.29.27:899][236]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.02.24-00.29.29:130][359]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.24-00.29.29:156][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.24-00.29.29:156][359]PIE: New page: PIE session: FirstPersonExampleMap (Feb 24, 2021, 2:29:29 PM)
+[2021.02.24-00.29.29:180][359]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.29.29:209][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029062s)
+[2021.02.24-00.29.29:210][359]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.24-00.29.29:210][359]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E9551A400), frame # 133359
+[2021.02.24-00.29.29:211][359]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018EA04FE5C0), frame # 133359
+[2021.02.24-00.29.29:211][359]LogPlayLevel: PIE: World Init took: (0.001911s)
+[2021.02.24-00.29.29:211][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031222s)
+[2021.02.24-00.29.29:279][359]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2021.02.24-00.29.29:295][359]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.24-00.29.29:295][359]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.24-00.29.29:295][359]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.24-00.29.29:295][359]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.24-00.29.29:296][359]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.24-00.29.29:296][359]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.24-00.29.29:296][359]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.24-00.29.29:296][359]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.24-00.29.29:296][359]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.24-00.29.29:296][359]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.24-00.29.29:329][359]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.24-00.29.29:329][359]LogAudioMixer: Display: 1: FrontRight
+[2021.02.24-00.29.29:381][359]LogAudioMixer: Display: Using Audio Device Speakers (USB Audio Device)
+[2021.02.24-00.29.29:382][359]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.24-00.29.29:382][359]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.24-00.29.29:382][359]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.24-00.29.29:383][359]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.24-00.29.29:400][359]LogInit: FAudioDevice initialized.
+[2021.02.24-00.29.29:409][359]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.24-00.29.29:412][359]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.02.24-07.29.29
+[2021.02.24-00.29.29:412][359]LogWorld: Bringing up level for play took: 0.002349
+[2021.02.24-00.29.29:423][359]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.02.24-00.29.29:447][359]PIE: Server logged in
+[2021.02.24-00.29.29:449][359]PIE: Play in editor total start time 0.299 seconds.
+[2021.02.24-00.29.33:613][849]LogTemp: Overlapped with extraction zone!
+[2021.02.24-00.29.38:964][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.29.38:965][487]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.29.38:965][487]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.29.38:965][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.29.38:975][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.24-00.29.38:980][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.29.39:053][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.29.39:054][487]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018EA04FE5C0), frame # 134487
+[2021.02.24-00.29.39:054][487]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E9551A400), frame # 134487
+[2021.02.24-00.29.39:068][487]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.02.24-00.29.39:112][488]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.02.24-00.29.50:982][785]LogEditorViewport: Clicking on Actor (LMB): BP_SpectatingViewpoint_C (BP_SpectatingViewpoint)
+[2021.02.24-00.30.06:028][364]BlueprintLog: New page: Compile BP_GameMode
+[2021.02.24-00.30.06:079][364]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.02.24-00.30.06:496][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2021.02.24-00.30.06:518][401]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/BP_GameMode4D70078E4EF9ED6FE61F03A463A6749E.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset'
+[2021.02.24-00.30.06:533][401]AssetCheck: New page: Asset Save: BP_GameMode
+[2021.02.24-00.30.06:533][401]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.02.24-00.30.07:872][540]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.24-00.30.07:894][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.24-00.30.07:894][540]PIE: New page: PIE session: FirstPersonExampleMap (Feb 24, 2021, 2:30:07 PM)
+[2021.02.24-00.30.07:925][540]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.30.07:950][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025234s)
+[2021.02.24-00.30.07:951][540]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.24-00.30.07:951][540]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E95B74E00), frame # 137540
+[2021.02.24-00.30.07:951][540]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E157A0900), frame # 137540
+[2021.02.24-00.30.07:952][540]LogPlayLevel: PIE: World Init took: (0.001416s)
+[2021.02.24-00.30.07:952][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026882s)
+[2021.02.24-00.30.07:983][540]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2021.02.24-00.30.07:985][540]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.24-00.30.07:985][540]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.24-00.30.07:985][540]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.24-00.30.07:985][540]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.24-00.30.07:985][540]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.24-00.30.07:985][540]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.24-00.30.07:985][540]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.24-00.30.07:985][540]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.24-00.30.07:985][540]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.24-00.30.07:986][540]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.24-00.30.07:992][540]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.24-00.30.07:992][540]LogAudioMixer: Display: 1: FrontRight
+[2021.02.24-00.30.08:040][540]LogAudioMixer: Display: Using Audio Device Speakers (USB Audio Device)
+[2021.02.24-00.30.08:041][540]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.24-00.30.08:041][540]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.24-00.30.08:041][540]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.24-00.30.08:042][540]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.24-00.30.08:056][540]LogInit: FAudioDevice initialized.
+[2021.02.24-00.30.08:067][540]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.24-00.30.08:069][540]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.02.24-07.30.08
+[2021.02.24-00.30.08:070][540]LogWorld: Bringing up level for play took: 0.001896
+[2021.02.24-00.30.08:070][540]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.02.24-00.30.08:073][540]PIE: Server logged in
+[2021.02.24-00.30.08:073][540]PIE: Play in editor total start time 0.182 seconds.
+[2021.02.24-00.30.17:859][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.30.17:859][674]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.30.17:859][674]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.30.17:881][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.30.17:893][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.24-00.30.17:899][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.30.17:959][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.30.17:960][674]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E157A0900), frame # 138674
+[2021.02.24-00.30.17:960][674]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E95B74E00), frame # 138674
+[2021.02.24-00.30.17:964][674]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2021.02.24-00.30.18:008][675]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.02.24-00.30.36:345][976]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.31.33:734][148]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.32.08:325][251]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.32.54:941][432]Candidate modules for hot reload:
+[2021.02.24-00.32.54:941][432]  FPSGame
+[2021.02.24-00.32.54:942][432]Launching UnrealBuildTool... [E:/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSGame,1094 FPSGameEditor Win64 Development -Project="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/FPSGame.uproject" "D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/FPSGame.uproject"  -IgnoreJunk]
+[2021.02.24-00.32.54:946][432]Warning: Starting HotReload took  0.1s.
+[2021.02.24-00.37.40:901][691]CompilerResultsLog: New page: Compilation - Feb 24, 2021, 2:37:40 PM
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: Parsing headers for FPSGameEditor
+[2021.02.24-00.37.40:916][691]CompilerResultsLog:   Running UnrealHeaderTool "D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\FPSGame.uproject" "D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\eriko\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: Reflection code generated for FPSGameEditor in 20,1417683 seconds
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: Building FPSGameEditor...
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: [Upgrade]
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in FPSGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: [Upgrade]
+[2021.02.24-00.37.40:916][691]CompilerResultsLog: Building 6 actions with 4 processes...
+[2021.02.24-00.37.40:916][691]CompilerResultsLog:   [1/6] FPSGameMode.cpp
+[2021.02.24-00.37.40:916][691]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(20) : error C2143: syntax error: missing ')' before '{'
+[2021.02.24-00.37.40:917][691]CompilerResultsLog:   [2/6] FPSGameMode.gen.cpp
+[2021.02.24-00.37.40:917][691]CompilerResultsLog:   [3/6] FPSExtractionZone.cpp
+[2021.02.24-00.37.40:917][691]LogMainFrame: MainFrame: Module compiling took 285.980 seconds
+[2021.02.24-00.37.40:933][691]Warning: HotReload failed, recompile failed
+[2021.02.24-00.38.35:545][606]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.38.44:165][711]Candidate modules for hot reload:
+[2021.02.24-00.38.44:165][711]  FPSGame
+[2021.02.24-00.38.44:165][711]Launching UnrealBuildTool... [E:/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSGame,3 FPSGameEditor Win64 Development -Project="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/FPSGame.uproject" "D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/FPSGame.uproject"  -IgnoreJunk]
+[2021.02.24-00.38.44:170][711]Warning: Starting HotReload took  0.0s.
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: New page: Compilation - Feb 24, 2021, 2:38:56 PM
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: Building FPSGameEditor...
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: [Upgrade]
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in FPSGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: [Upgrade]
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: Building 4 actions with 4 processes...
+[2021.02.24-00.38.56:851][153]CompilerResultsLog:   [1/4] FPSGameMode.cpp
+[2021.02.24-00.38.56:851][153]CompilerResultsLog:   [2/4] UE4Editor-FPSGame-0003.lib
+[2021.02.24-00.38.56:851][153]CompilerResultsLog:      Creating library D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0003.lib and object D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0003.exp
+[2021.02.24-00.38.56:851][153]CompilerResultsLog:   [3/4] UE4Editor-FPSGame-0003.dll
+[2021.02.24-00.38.56:851][153]CompilerResultsLog:      Creating library D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0003.suppressed.lib and object D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Intermediate\Build\Win64\UE4Editor\Development\FPSGame\UE4Editor-FPSGame-0003.suppressed.exp
+[2021.02.24-00.38.56:851][153]CompilerResultsLog:   [4/4] FPSGameEditor.target
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: Total time in Parallel executor: 10,82 seconds
+[2021.02.24-00.38.56:851][153]CompilerResultsLog: Total execution time: 11,90 seconds
+[2021.02.24-00.38.56:851][153]LogMainFrame: MainFrame: Module compiling took 12.691 seconds
+[2021.02.24-00.38.56:880][153]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 3434 classes and 825 folders.
+[2021.02.24-00.38.56:880][153]Display: HotReload took 12.8s.
+[2021.02.24-00.42.35:897][330]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.02.24-00.42.41:611][978]BlueprintLog: New page: Compile BP_GameMode
+[2021.02.24-00.42.41:722][978]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2021.02.24-00.42.42:301][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2021.02.24-00.42.42:347][ 37]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/BP_GameMode710C6D9046CD14D18D3E699709CD2794.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset'
+[2021.02.24-00.42.42:359][ 37]AssetCheck: New page: Asset Save: BP_GameMode
+[2021.02.24-00.42.42:359][ 37]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.02.24-00.42.43:714][174]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.24-00.42.43:739][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.24-00.42.43:739][174]PIE: New page: PIE session: FirstPersonExampleMap (Feb 24, 2021, 2:42:43 PM)
+[2021.02.24-00.42.43:739][174]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.42.43:762][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023080s)
+[2021.02.24-00.42.43:763][174]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.24-00.42.43:763][174]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018EB86C2C00), frame # 182174
+[2021.02.24-00.42.43:764][174]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018EBB2EDBC0), frame # 182174
+[2021.02.24-00.42.43:764][174]LogPlayLevel: PIE: World Init took: (0.001888s)
+[2021.02.24-00.42.43:764][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025148s)
+[2021.02.24-00.42.43:825][174]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2021.02.24-00.42.43:827][174]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.24-00.42.43:827][174]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.24-00.42.43:827][174]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.24-00.42.43:827][174]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.24-00.42.43:827][174]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.24-00.42.43:827][174]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.24-00.42.43:827][174]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.24-00.42.43:827][174]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.24-00.42.43:827][174]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.24-00.42.43:827][174]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.24-00.42.43:834][174]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.24-00.42.43:834][174]LogAudioMixer: Display: 1: FrontRight
+[2021.02.24-00.42.43:884][174]LogAudioMixer: Display: Using Audio Device Speakers (USB Audio Device)
+[2021.02.24-00.42.43:884][174]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.24-00.42.43:884][174]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.24-00.42.43:884][174]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.24-00.42.43:885][174]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.24-00.42.43:902][174]LogInit: FAudioDevice initialized.
+[2021.02.24-00.42.43:920][174]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.24-00.42.43:923][174]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.02.24-07.42.43
+[2021.02.24-00.42.43:923][174]LogWorld: Bringing up level for play took: 0.002045
+[2021.02.24-00.42.43:923][174]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.02.24-00.42.43:926][174]PIE: Server logged in
+[2021.02.24-00.42.43:927][174]PIE: Play in editor total start time 0.194 seconds.
+[2021.02.24-00.42.49:116][791]LogTemp: Overlapped with extraction zone!
+[2021.02.24-00.42.58:184][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.42.58:184][874]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.42.58:184][874]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.42.58:185][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.42.58:199][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.24-00.42.58:204][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.42.58:252][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.42.58:253][874]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018EBB2EDBC0), frame # 183874
+[2021.02.24-00.42.58:253][874]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018EB86C2C00), frame # 183874
+[2021.02.24-00.42.58:256][874]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.02.24-00.42.58:299][875]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.02.24-00.43.34:815][481]BlueprintLog: New page: Compile BP_GameMode
+[2021.02.24-00.43.34:867][481]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2021.02.24-00.43.36:606][651]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.24-00.43.36:628][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.24-00.43.36:628][651]PIE: New page: PIE session: FirstPersonExampleMap (Feb 24, 2021, 2:43:36 PM)
+[2021.02.24-00.43.36:655][651]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.43.36:683][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028609s)
+[2021.02.24-00.43.36:685][651]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.24-00.43.36:685][651]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E21505E00), frame # 184651
+[2021.02.24-00.43.36:685][651]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E930734C0), frame # 184651
+[2021.02.24-00.43.36:686][651]LogPlayLevel: PIE: World Init took: (0.002017s)
+[2021.02.24-00.43.36:686][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030864s)
+[2021.02.24-00.43.36:719][651]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.02.24-00.43.36:720][651]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.24-00.43.36:720][651]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.24-00.43.36:720][651]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.24-00.43.36:721][651]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.24-00.43.36:721][651]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.24-00.43.36:721][651]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.24-00.43.36:721][651]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.24-00.43.36:721][651]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.24-00.43.36:721][651]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.24-00.43.36:721][651]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.24-00.43.36:728][651]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.24-00.43.36:728][651]LogAudioMixer: Display: 1: FrontRight
+[2021.02.24-00.43.36:774][651]LogAudioMixer: Display: Using Audio Device Speakers (USB Audio Device)
+[2021.02.24-00.43.36:774][651]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.24-00.43.36:775][651]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.24-00.43.36:775][651]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.24-00.43.36:776][651]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.24-00.43.36:792][651]LogInit: FAudioDevice initialized.
+[2021.02.24-00.43.36:804][651]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.24-00.43.36:807][651]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.02.24-07.43.36
+[2021.02.24-00.43.36:807][651]LogWorld: Bringing up level for play took: 0.002618
+[2021.02.24-00.43.36:807][651]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.02.24-00.43.36:826][651]PIE: Server logged in
+[2021.02.24-00.43.36:828][651]PIE: Play in editor total start time 0.202 seconds.
+[2021.02.24-00.43.40:668][107]LogTemp: Overlapped with extraction zone!
+[2021.02.24-00.43.42:428][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.43.42:428][312]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.43.42:428][312]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.43.42:428][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.43.42:435][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.24-00.43.42:440][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.43.42:486][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.43.42:487][312]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E930734C0), frame # 185312
+[2021.02.24-00.43.42:487][312]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E21505E00), frame # 185312
+[2021.02.24-00.43.42:490][312]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.02.24-00.43.42:534][313]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.02.24-00.43.43:588][434]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.24-00.43.43:610][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.24-00.43.43:610][434]PIE: New page: PIE session: FirstPersonExampleMap (Feb 24, 2021, 2:43:43 PM)
+[2021.02.24-00.43.43:655][434]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.43.43:684][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028704s)
+[2021.02.24-00.43.43:685][434]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.24-00.43.43:685][434]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018E95B74800), frame # 185434
+[2021.02.24-00.43.43:698][434]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E93112FC0), frame # 185434
+[2021.02.24-00.43.43:698][434]LogPlayLevel: PIE: World Init took: (0.013997s)
+[2021.02.24-00.43.43:698][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.042940s)
+[2021.02.24-00.43.43:727][434]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.02.24-00.43.43:729][434]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.24-00.43.43:729][434]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.24-00.43.43:729][434]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.24-00.43.43:729][434]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.24-00.43.43:729][434]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.24-00.43.43:729][434]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.24-00.43.43:729][434]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.24-00.43.43:729][434]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.24-00.43.43:729][434]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.24-00.43.43:730][434]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.24-00.43.43:736][434]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.24-00.43.43:736][434]LogAudioMixer: Display: 1: FrontRight
+[2021.02.24-00.43.43:784][434]LogAudioMixer: Display: Using Audio Device Speakers (USB Audio Device)
+[2021.02.24-00.43.43:784][434]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.24-00.43.43:784][434]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.24-00.43.43:784][434]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.24-00.43.43:786][434]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.24-00.43.43:803][434]LogInit: FAudioDevice initialized.
+[2021.02.24-00.43.43:811][434]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.24-00.43.43:814][434]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.02.24-07.43.43
+[2021.02.24-00.43.43:814][434]LogWorld: Bringing up level for play took: 0.001983
+[2021.02.24-00.43.43:814][434]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.02.24-00.43.43:817][434]PIE: Server logged in
+[2021.02.24-00.43.43:818][434]PIE: Play in editor total start time 0.212 seconds.
+[2021.02.24-00.43.45:431][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.43.45:431][617]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.43.45:431][617]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.43.45:432][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.43.45:440][617]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.24-00.43.45:446][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.43.45:492][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.43.45:493][617]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E93112FC0), frame # 185617
+[2021.02.24-00.43.45:493][617]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E95B74800), frame # 185617
+[2021.02.24-00.43.45:496][617]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.02.24-00.43.45:540][618]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.02.24-00.43.49:381][ 48]BlueprintLog: New page: Compile BP_GameMode
+[2021.02.24-00.43.49:430][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.02.24-00.43.51:047][218]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.24-00.43.51:069][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.24-00.43.51:069][218]PIE: New page: PIE session: FirstPersonExampleMap (Feb 24, 2021, 2:43:51 PM)
+[2021.02.24-00.43.51:069][218]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.43.51:093][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023220s)
+[2021.02.24-00.43.51:094][218]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.02.24-00.43.51:094][218]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000018EB86C1000), frame # 186218
+[2021.02.24-00.43.51:094][218]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000018E25F3B4C0), frame # 186218
+[2021.02.24-00.43.51:094][218]LogPlayLevel: PIE: World Init took: (0.001689s)
+[2021.02.24-00.43.51:095][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025104s)
+[2021.02.24-00.43.51:128][218]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.02.24-00.43.51:130][218]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.24-00.43.51:130][218]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.24-00.43.51:130][218]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.24-00.43.51:130][218]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.24-00.43.51:130][218]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.24-00.43.51:130][218]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.24-00.43.51:130][218]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.24-00.43.51:130][218]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.24-00.43.51:131][218]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.24-00.43.51:131][218]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.24-00.43.51:138][218]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.24-00.43.51:138][218]LogAudioMixer: Display: 1: FrontRight
+[2021.02.24-00.43.51:183][218]LogAudioMixer: Display: Using Audio Device Speakers (USB Audio Device)
+[2021.02.24-00.43.51:184][218]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.24-00.43.51:184][218]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.24-00.43.51:184][218]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.24-00.43.51:185][218]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.24-00.43.51:202][218]LogInit: FAudioDevice initialized.
+[2021.02.24-00.43.51:213][218]LogLoad: Game class is 'BP_GameMode_C'
+[2021.02.24-00.43.51:215][218]LogWorld: Bringing World /Game/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2021.02.24-07.43.51
+[2021.02.24-00.43.51:216][218]LogWorld: Bringing up level for play took: 0.002192
+[2021.02.24-00.43.51:216][218]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.02.24-00.43.51:219][218]PIE: Server logged in
+[2021.02.24-00.43.51:220][218]PIE: Play in editor total start time 0.153 seconds.
+[2021.02.24-00.43.52:850][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.43.52:850][406]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_FirstPersonExampleMap
+[2021.02.24-00.43.52:850][406]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.43.52:851][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.43.52:862][406]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.24-00.43.52:866][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.43.52:914][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.24-00.43.52:914][406]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E25F3B4C0), frame # 186406
+[2021.02.24-00.43.52:914][406]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018EB86C1000), frame # 186406
+[2021.02.24-00.43.52:917][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.02.24-00.43.52:959][407]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.02.24-00.44.47:590][704]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.44.49:713][778]Candidate modules for hot reload:
+[2021.02.24-00.44.49:713][778]  FPSGame
+[2021.02.24-00.44.49:713][778]Launching UnrealBuildTool... [E:/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSGame,9071 FPSGameEditor Win64 Development -Project="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/FPSGame.uproject" "D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/FPSGame.uproject"  -IgnoreJunk]
+[2021.02.24-00.44.49:718][778]Warning: Starting HotReload took  0.0s.
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: New page: Compilation - Feb 24, 2021, 2:45:46 PM
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: Parsing headers for FPSGameEditor
+[2021.02.24-00.45.46:850][102]CompilerResultsLog:   Running UnrealHeaderTool "D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\FPSGame.uproject" "D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Intermediate\Build\Win64\FPSGameEditor\Development\FPSGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\eriko\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: Reflection code generated for FPSGameEditor in 9,1921363 seconds
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: Building FPSGameEditor...
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: [Upgrade]
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in FPSGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: [Upgrade]
+[2021.02.24-00.45.46:850][102]CompilerResultsLog: Building 7 actions with 4 processes...
+[2021.02.24-00.45.46:850][102]CompilerResultsLog:   [1/7] FPSGameMode.gen.cpp
+[2021.02.24-00.45.46:850][102]CompilerResultsLog:   [2/7] FPSGame.init.gen.cpp
+[2021.02.24-00.45.46:850][102]CompilerResultsLog:   [3/7] FPSExtractionZone.cpp
+[2021.02.24-00.45.46:850][102]CompilerResultsLog:   [4/7] FPSGameMode.cpp
+[2021.02.24-00.45.46:850][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(23) : error C2065: 'SpectatingViewpointClass': undeclared identifier
+[2021.02.24-00.45.46:850][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(26) : error C2065: 'SpectatingViewpointClass': undeclared identifier
+[2021.02.24-00.45.46:850][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C4003: not enough arguments for function-like macro invocation 'UE_LOG'
+[2021.02.24-00.45.46:850][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2059: syntax error: ')'
+[2021.02.24-00.45.46:850][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C3553: decltype expects an expression not a type
+[2021.02.24-00.45.46:850][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2947: expecting '>' to terminate template-argument-list, found '>'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2062: type 'unknown-type' unexpected
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2039: 'Value': is not a member of '`global namespace''
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2059: syntax error: 'string'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2143: syntax error: missing ';' before '{'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2065: 'UE_LOG_EXPAND_IS_FATAL_Warning': undeclared identifier
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2143: syntax error: missing ';' before 'string'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2143: syntax error: missing ')' before ','
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2064: term does not evaluate to a function taking 0 arguments
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2059: syntax error: 'if'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2065: '__LogPoint45': undeclared identifier
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2065: 'LCategoryName': undeclared identifier
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2143: syntax error: missing ')' before 'string'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2065: 'LFormat': undeclared identifier
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2065: 'UE_LOG_Args': undeclared identifier
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C3546: '...': there are no parameter packs available to expand
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2672: 'FMsg::Logf_Internal': no matching overloaded function found
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2780: 'void FMsg::Logf_Internal(const ANSICHAR *,int32,const FLogCategoryName &,ELogVerbosity::Type,const FmtType &,Types...)': expects 6 arguments - 3 provided
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:   E:\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(55): note: see declaration of 'FMsg::Logf_Internal'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2059: syntax error: ','
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2143: syntax error: missing ')' before ';'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2059: syntax error: '}'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(46) : error C2059: syntax error: '}'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(46) : error C2143: syntax error: missing ';' before '}'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(47) : error C2143: syntax error: missing ';' before '}'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(47) : error C2059: syntax error: '}'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(50) : error C2059: syntax error: '}'
+[2021.02.24-00.45.46:851][102]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(50) : error C2143: syntax error: missing ';' before '}'
+[2021.02.24-00.45.46:851][102]LogMainFrame: MainFrame: Module compiling took 57.143 seconds
+[2021.02.24-00.45.46:851][102]Warning: HotReload failed, recompile failed
+[2021.02.24-00.46.44:976][275]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.46.45:980][278]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.46.46:986][281]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.02.24-00.46.52:413][359]Candidate modules for hot reload:
+[2021.02.24-00.46.52:413][359]  FPSGame
+[2021.02.24-00.46.52:413][359]Launching UnrealBuildTool... [E:/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSGame,8208 FPSGameEditor Win64 Development -Project="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/FPSGame.uproject" "D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/FPSGame.uproject"  -IgnoreJunk]
+[2021.02.24-00.46.52:417][359]Warning: Starting HotReload took  0.0s.
+[2021.02.24-00.46.56:364][595]CompilerResultsLog: New page: Compilation - Feb 24, 2021, 2:46:56 PM
+[2021.02.24-00.46.56:365][595]CompilerResultsLog: Building FPSGameEditor...
+[2021.02.24-00.46.56:365][595]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.24-00.46.56:365][595]CompilerResultsLog: [Upgrade]
+[2021.02.24-00.46.56:365][595]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2021.02.24-00.46.56:365][595]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2021.02.24-00.46.56:365][595]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2021.02.24-00.46.56:365][595]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2021.02.24-00.46.56:365][595]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in FPSGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2021.02.24-00.46.56:365][595]CompilerResultsLog: [Upgrade]
+[2021.02.24-00.46.56:365][595]CompilerResultsLog: Building 4 actions with 4 processes...
+[2021.02.24-00.46.56:365][595]CompilerResultsLog:   [1/4] FPSGameMode.cpp
+[2021.02.24-00.46.56:365][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C4003: not enough arguments for function-like macro invocation 'UE_LOG'
+[2021.02.24-00.46.56:365][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2059: syntax error: ')'
+[2021.02.24-00.46.56:365][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C3553: decltype expects an expression not a type
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2947: expecting '>' to terminate template-argument-list, found '>'
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2062: type 'unknown-type' unexpected
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2039: 'Value': is not a member of '`global namespace''
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2059: syntax error: 'string'
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2143: syntax error: missing ';' before '{'
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2065: 'UE_LOG_EXPAND_IS_FATAL_Warning': undeclared identifier
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2143: syntax error: missing ';' before 'string'
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2143: syntax error: missing ')' before ','
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2064: term does not evaluate to a function taking 0 arguments
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2059: syntax error: 'if'
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2065: '__LogPoint45': undeclared identifier
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2065: 'LCategoryName': undeclared identifier
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2143: syntax error: missing ')' before 'string'
+[2021.02.24-00.46.56:366][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2065: 'LFormat': undeclared identifier
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2065: 'UE_LOG_Args': undeclared identifier
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C3546: '...': there are no parameter packs available to expand
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2672: 'FMsg::Logf_Internal': no matching overloaded function found
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2780: 'void FMsg::Logf_Internal(const ANSICHAR *,int32,const FLogCategoryName &,ELogVerbosity::Type,const FmtType &,Types...)': expects 6 arguments - 3 provided
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:   E:\Epic Games\UE_4.25\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h(55): note: see declaration of 'FMsg::Logf_Internal'
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2059: syntax error: ','
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2143: syntax error: missing ')' before ';'
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(45) : error C2059: syntax error: '}'
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(46) : error C2059: syntax error: '}'
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(46) : error C2143: syntax error: missing ';' before '}'
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(47) : error C2143: syntax error: missing ';' before '}'
+[2021.02.24-00.46.56:367][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(47) : error C2059: syntax error: '}'
+[2021.02.24-00.46.56:368][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(50) : error C2059: syntax error: '}'
+[2021.02.24-00.46.56:368][595]CompilerResultsLog:    D:\IKO Tutorial\Udemy\Multiplayer\StealthGame\Source\FPSGame\Private\FPSGameMode.cpp(50) : error C2143: syntax error: missing ';' before '}'
+[2021.02.24-00.46.56:368][595]LogMainFrame: MainFrame: Module compiling took 3.959 seconds
+[2021.02.24-00.46.56:368][595]Warning: HotReload failed, recompile failed
+[2021.02.24-00.47.01:777][947]BlueprintLog: New page: Compile BP_GameMode
+[2021.02.24-00.47.01:825][947]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2021.02.24-00.47.37:803][857]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2021.02.24-00.47.37:851][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstPersonExampleMap" FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Maps/FirstPersonExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.02.24-00.47.37:900][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.02.24-00.47.38:157][857]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/FirstPersonExampleMap67562E9D4BC4EA92AB5225B18A1B7081.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Maps/FirstPersonExampleMap.umap'
+[2021.02.24-00.47.38:242][857]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.392
+[2021.02.24-00.47.38:243][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstPersonExampleMap_BuiltData" FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2021.02.24-00.47.38:532][857]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/FirstPersonExampleMap_BuiltDataF25C24B0436BCEE148F31EA02972B8D8.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.02.24-00.47.38:537][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_GameMode" FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset" SILENT=true
+[2021.02.24-00.47.38:577][857]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/BP_GameModeE097EB554BC60A86A14C0DB00A10C557.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_GameMode.uasset'
+[2021.02.24-00.47.38:580][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/FirstPersonExampleMap_BuiltData" FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset" SILENT=true
+[2021.02.24-00.47.38:662][857]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/FirstPersonExampleMap_BuiltDataB8427DDD436A3E31E3318EAFAFB6013A.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2021.02.24-00.47.38:664][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_SpectatingViewpoint" FILE="D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_SpectatingViewpoint.uasset" SILENT=true
+[2021.02.24-00.47.38:686][857]LogSavePackage: Moving 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Saved/BP_SpectatingViewpoint27DCCF86416D50C28705E88371CC422B.tmp' to 'D:/IKO Tutorial/Udemy/Multiplayer/StealthGame/Content/Blueprints/BP_SpectatingViewpoint.uasset'
+[2021.02.24-00.47.38:728][857]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.24-00.47.38:728][857]LogContentValidation: Display: Validating World /Game/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2021.02.24-00.47.38:728][857]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2021.02.24-00.47.38:728][857]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_GameMode.BP_GameMode
+[2021.02.24-00.47.38:728][857]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_SpectatingViewpoint.BP_SpectatingViewpoint
+[2021.02.24-00.47.39:772][966]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.02.24-00.47.40:182][966]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.47.40:182][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.47.40:208][966]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.47.40:208][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.47.40:400][966]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.02.24-00.47.40:400][966]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.47.40:400][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.24-00.47.40:604][966]LogSlate: Window 'FPSGame - Unreal Editor' being destroyed
+[2021.02.24-00.47.40:610][966]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.02.24-00.47.41:311][967]Cmd: QUIT_EDITOR
+[2021.02.24-00.47.41:311][967]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.02.24-00.47.41:412][967]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.02.24-00.47.42:286][967]LogExit: Preparing to exit.
+[2021.02.24-00.47.50:358][967]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.47.50:360][967]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.47.50:364][967]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.47.50:367][967]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.47.50:369][967]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.47.50:375][967]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.47.52:245][967]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.02.24-00.47.53:360][967]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.02.24-00.47.53:362][967]LogExit: Editor shut down
+[2021.02.24-00.47.53:371][967]LogExit: Transaction tracking system shut down
+[2021.02.24-00.47.57:552][967]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000018E6BF62980), frame # 188967
+[2021.02.24-00.47.57:552][967]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E6BE16AC0), frame # 188967
+[2021.02.24-00.47.57:588][967]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E6BE71C00), frame # 188967
+[2021.02.24-00.48.01:059][967]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000018E60B62200), frame # 188967
+[2021.02.24-00.48.01:059][967]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000018E60B83380), frame # 188967
+[2021.02.24-00.48.01:543][967]LogExit: Object subsystem successfully closed.
+[2021.02.24-00.48.02:466][967]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.02.24-00.48.06:243][967]LogModuleManager: Shutting down and abandoning module FPSGame (803)
+[2021.02.24-00.48.06:243][967]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (802)
+[2021.02.24-00.48.06:268][967]LogModuleManager: Shutting down and abandoning module Voice (800)
+[2021.02.24-00.48.06:291][967]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (798)
+[2021.02.24-00.48.06:291][967]LogModuleManager: Shutting down and abandoning module SequencerWidgets (796)
+[2021.02.24-00.48.06:291][967]LogModuleManager: Shutting down and abandoning module BlueprintGraph (794)
+[2021.02.24-00.48.06:298][967]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2021.02.24-00.48.06:299][967]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2021.02.24-00.48.06:299][967]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
+[2021.02.24-00.48.06:379][967]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
+[2021.02.24-00.48.06:379][967]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2021.02.24-00.48.06:379][967]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
+[2021.02.24-00.48.06:396][967]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
+[2021.02.24-00.48.06:434][967]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
+[2021.02.24-00.48.06:434][967]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
+[2021.02.24-00.48.06:541][967]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
+[2021.02.24-00.48.06:650][967]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
+[2021.02.24-00.48.06:677][967]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
+[2021.02.24-00.48.06:677][967]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
+[2021.02.24-00.48.06:677][967]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
+[2021.02.24-00.48.06:741][967]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
+[2021.02.24-00.48.06:769][967]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
+[2021.02.24-00.48.06:796][967]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
+[2021.02.24-00.48.06:796][967]LogModuleManager: Shutting down and abandoning module OculusMR (758)
+[2021.02.24-00.48.06:796][967]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
+[2021.02.24-00.48.06:796][967]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
+[2021.02.24-00.48.06:796][967]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
+[2021.02.24-00.48.06:846][967]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
+[2021.02.24-00.48.06:895][967]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
+[2021.02.24-00.48.06:916][967]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
+[2021.02.24-00.48.06:952][967]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
+[2021.02.24-00.48.06:953][967]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
+[2021.02.24-00.48.06:954][967]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
+[2021.02.24-00.48.06:954][967]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
+[2021.02.24-00.48.06:954][967]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
+[2021.02.24-00.48.06:982][967]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
+[2021.02.24-00.48.07:046][967]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
+[2021.02.24-00.48.07:103][967]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
+[2021.02.24-00.48.07:105][967]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
+[2021.02.24-00.48.07:118][967]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
+[2021.02.24-00.48.07:119][967]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
+[2021.02.24-00.48.07:119][967]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
+[2021.02.24-00.48.07:119][967]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
+[2021.02.24-00.48.07:119][967]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
+[2021.02.24-00.48.07:119][967]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
+[2021.02.24-00.48.07:119][967]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
+[2021.02.24-00.48.07:119][967]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
+[2021.02.24-00.48.07:119][967]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
+[2021.02.24-00.48.07:119][967]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
+[2021.02.24-00.48.07:173][967]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
+[2021.02.24-00.48.07:174][967]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
+[2021.02.24-00.48.07:175][967]LogModuleManager: Shutting down and abandoning module BspMode (702)
+[2021.02.24-00.48.07:195][967]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
+[2021.02.24-00.48.07:195][967]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
+[2021.02.24-00.48.07:195][967]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
+[2021.02.24-00.48.07:295][967]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
+[2021.02.24-00.48.07:295][967]LogModuleManager: Shutting down and abandoning module SessionServices (692)
+[2021.02.24-00.48.07:295][967]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
+[2021.02.24-00.48.07:358][967]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
+[2021.02.24-00.48.07:358][967]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
+[2021.02.24-00.48.07:358][967]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
+[2021.02.24-00.48.07:460][967]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
+[2021.02.24-00.48.07:504][967]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
+[2021.02.24-00.48.07:548][967]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
+[2021.02.24-00.48.07:578][967]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
+[2021.02.24-00.48.07:650][967]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
+[2021.02.24-00.48.07:667][967]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
+[2021.02.24-00.48.07:689][967]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
+[2021.02.24-00.48.07:689][967]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
+[2021.02.24-00.48.08:515][967]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
+[2021.02.24-00.48.08:516][967]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
+[2021.02.24-00.48.08:516][967]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
+[2021.02.24-00.48.08:516][967]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
+[2021.02.24-00.48.08:516][967]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
+[2021.02.24-00.48.08:677][967]LogModuleManager: Shutting down and abandoning module TraceServices (657)
+[2021.02.24-00.48.08:713][967]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
+[2021.02.24-00.48.08:733][967]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
+[2021.02.24-00.48.08:733][967]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
+[2021.02.24-00.48.08:776][967]LogModuleManager: Shutting down and abandoning module MergeActors (648)
+[2021.02.24-00.48.08:847][967]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
+[2021.02.24-00.48.08:905][967]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
+[2021.02.24-00.48.08:999][967]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
+[2021.02.24-00.48.09:012][967]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
+[2021.02.24-00.48.09:030][967]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
+[2021.02.24-00.48.09:070][967]LogModuleManager: Shutting down and abandoning module XmlParser (636)
+[2021.02.24-00.48.09:080][967]LogModuleManager: Shutting down and abandoning module Blutility (634)
+[2021.02.24-00.48.09:085][967]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
+[2021.02.24-00.48.09:111][967]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
+[2021.02.24-00.48.09:125][967]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
+[2021.02.24-00.48.09:141][967]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
+[2021.02.24-00.48.09:219][967]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
+[2021.02.24-00.48.09:266][967]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
+[2021.02.24-00.48.09:321][967]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
+[2021.02.24-00.48.09:339][967]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
+[2021.02.24-00.48.09:364][967]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
+[2021.02.24-00.48.09:398][967]LogModuleManager: Shutting down and abandoning module AutomationController (614)
+[2021.02.24-00.48.09:435][967]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
+[2021.02.24-00.48.09:477][967]LogModuleManager: Shutting down and abandoning module Layers (610)
+[2021.02.24-00.48.09:529][967]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
+[2021.02.24-00.48.09:549][967]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
+[2021.02.24-00.48.09:595][967]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
+[2021.02.24-00.48.09:617][967]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
+[2021.02.24-00.48.09:713][967]LogModuleManager: Shutting down and abandoning module Persona (600)
+[2021.02.24-00.48.09:842][967]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
+[2021.02.24-00.48.09:842][967]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
+[2021.02.24-00.48.09:877][967]LogModuleManager: Shutting down and abandoning module Kismet (594)
+[2021.02.24-00.48.09:942][967]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
+[2021.02.24-00.48.09:987][967]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
+[2021.02.24-00.48.09:988][967]LogModuleManager: Shutting down and abandoning module StructViewer (588)
+[2021.02.24-00.48.10:030][967]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
+[2021.02.24-00.48.10:036][967]LogModuleManager: Shutting down and abandoning module Toolbox (584)
+[2021.02.24-00.48.10:069][967]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
+[2021.02.24-00.48.10:080][967]LogModuleManager: Shutting down and abandoning module OutputLog (580)
+[2021.02.24-00.48.10:082][967]LogModuleManager: Shutting down and abandoning module GammaUI (578)
+[2021.02.24-00.48.10:109][967]LogModuleManager: Shutting down and abandoning module Documentation (576)
+[2021.02.24-00.48.10:114][967]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
+[2021.02.24-00.48.10:159][967]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
+[2021.02.24-00.48.10:171][967]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
+[2021.02.24-00.48.10:185][967]LogModuleManager: Shutting down and abandoning module MovieScene (568)
+[2021.02.24-00.48.10:193][967]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
+[2021.02.24-00.48.10:210][967]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
+[2021.02.24-00.48.10:210][967]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
+[2021.02.24-00.48.10:210][967]LogModuleManager: Shutting down and abandoning module PortalServices (560)
+[2021.02.24-00.48.10:210][967]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
+[2021.02.24-00.48.10:210][967]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
+[2021.02.24-00.48.10:210][967]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
+[2021.02.24-00.48.10:210][967]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
+[2021.02.24-00.48.10:210][967]LogModuleManager: Shutting down and abandoning module AIModule (550)
+[2021.02.24-00.48.10:233][967]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+[2021.02.24-00.48.10:242][967]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+[2021.02.24-00.48.10:253][967]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+[2021.02.24-00.48.10:253][967]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
+[2021.02.24-00.48.10:453][967]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
+[2021.02.24-00.48.10:468][967]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2021.02.24-00.48.10:469][967]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
+[2021.02.24-00.48.10:469][967]LogModuleManager: Shutting down and abandoning module Synthesis (534)
+[2021.02.24-00.48.10:505][967]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
+[2021.02.24-00.48.10:518][967]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
+[2021.02.24-00.48.10:518][967]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
+[2021.02.24-00.48.10:524][967]LogModuleManager: Shutting down and abandoning module OculusInput (526)
+[2021.02.24-00.48.10:542][967]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
+[2021.02.24-00.48.10:542][967]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2021.02.24-00.48.10:542][967]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2021.02.24-00.48.10:546][967]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2021.02.24-00.48.10:546][967]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2021.02.24-00.48.10:567][967]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2021.02.24-00.48.10:568][967]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2021.02.24-00.48.10:585][967]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2021.02.24-00.48.10:585][967]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2021.02.24-00.48.10:585][967]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2021.02.24-00.48.10:585][967]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2021.02.24-00.48.10:585][967]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2021.02.24-00.48.10:585][967]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
+[2021.02.24-00.48.10:596][967]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
+[2021.02.24-00.48.10:619][967]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2021.02.24-00.48.10:619][967]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
+[2021.02.24-00.48.10:622][967]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
+[2021.02.24-00.48.10:634][967]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
+[2021.02.24-00.48.10:634][967]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
+[2021.02.24-00.48.10:652][967]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
+[2021.02.24-00.48.10:652][967]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
+[2021.02.24-00.48.10:698][967]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
+[2021.02.24-00.48.10:719][967]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
+[2021.02.24-00.48.10:728][967]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
+[2021.02.24-00.48.10:728][967]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (476)
+[2021.02.24-00.48.10:728][967]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (474)
+[2021.02.24-00.48.10:729][967]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (472)
+[2021.02.24-00.48.10:730][967]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (470)
+[2021.02.24-00.48.10:730][967]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (468)
+[2021.02.24-00.48.10:749][967]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (466)
+[2021.02.24-00.48.10:866][967]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (464)
+[2021.02.24-00.48.10:888][967]LogModuleManager: Shutting down and abandoning module MeshConversion (462)
+[2021.02.24-00.48.10:905][967]LogModuleManager: Shutting down and abandoning module DynamicMesh (460)
+[2021.02.24-00.48.10:944][967]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (458)
+[2021.02.24-00.48.10:951][967]LogModuleManager: Shutting down and abandoning module GeometricObjects (456)
+[2021.02.24-00.48.10:957][967]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (454)
+[2021.02.24-00.48.10:957][967]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (453)
+[2021.02.24-00.48.10:957][967]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (450)
+[2021.02.24-00.48.10:957][967]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (448)
+[2021.02.24-00.48.10:958][967]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (446)
+[2021.02.24-00.48.10:958][967]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (444)
+[2021.02.24-00.48.10:958][967]LogModuleManager: Shutting down and abandoning module ChaosNiagara (442)
+[2021.02.24-00.48.10:958][967]LogModuleManager: Shutting down and abandoning module FractureEditor (440)
+[2021.02.24-00.48.10:963][967]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (438)
+[2021.02.24-00.48.10:963][967]LogModuleManager: Shutting down and abandoning module ChaosCloth (436)
+[2021.02.24-00.48.10:992][967]LogModuleManager: Shutting down and abandoning module BackChannel (434)
+[2021.02.24-00.48.10:999][967]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (432)
+[2021.02.24-00.48.10:999][967]LogModuleManager: Shutting down and abandoning module AutomationUtils (430)
+[2021.02.24-00.48.11:007][967]LogModuleManager: Shutting down and abandoning module AlembicImporter (428)
+[2021.02.24-00.48.11:007][967]LogModuleManager: Shutting down and abandoning module AlembicLibrary (427)
+[2021.02.24-00.48.11:007][967]LogModuleManager: Shutting down and abandoning module GeometryCache (426)
+[2021.02.24-00.48.11:007][967]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (425)
+[2021.02.24-00.48.11:007][967]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (420)
+[2021.02.24-00.48.11:035][967]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (418)
+[2021.02.24-00.48.11:057][967]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (416)
+[2021.02.24-00.48.11:057][967]LogModuleManager: Shutting down and abandoning module PluginBrowser (414)
+[2021.02.24-00.48.11:088][967]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (412)
+[2021.02.24-00.48.11:125][967]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (410)
+[2021.02.24-00.48.11:131][967]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (408)
+[2021.02.24-00.48.11:166][967]LogModuleManager: Shutting down and abandoning module CurveEditorTools (406)
+[2021.02.24-00.48.11:204][967]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (404)
+[2021.02.24-00.48.11:211][967]LogModuleManager: Shutting down and abandoning module CryptoKeys (402)
+[2021.02.24-00.48.11:211][967]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (400)
+[2021.02.24-00.48.11:211][967]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (398)
+[2021.02.24-00.48.11:211][967]LogModuleManager: Shutting down and abandoning module UObjectPlugin (396)
+[2021.02.24-00.48.11:211][967]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (394)
+[2021.02.24-00.48.11:222][967]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (392)
+[2021.02.24-00.48.11:222][967]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (390)
+[2021.02.24-00.48.11:252][967]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (388)
+[2021.02.24-00.48.11:284][967]LogModuleManager: Shutting down and abandoning module GitSourceControl (386)
+[2021.02.24-00.48.11:310][967]LogModuleManager: Shutting down and abandoning module SourceControl (385)
+[2021.02.24-00.48.11:327][967]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (382)
+[2021.02.24-00.48.11:338][967]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (380)
+[2021.02.24-00.48.11:338][967]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (378)
+[2021.02.24-00.48.11:362][967]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (376)
+[2021.02.24-00.48.11:362][967]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (374)
+[2021.02.24-00.48.11:366][967]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (372)
+[2021.02.24-00.48.11:366][967]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (370)
+[2021.02.24-00.48.11:387][967]LogModuleManager: Shutting down and abandoning module Paper2DEditor (368)
+[2021.02.24-00.48.11:444][967]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2021.02.24-00.48.11:457][967]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2021.02.24-00.48.11:457][967]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2021.02.24-00.48.11:457][967]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2021.02.24-00.48.11:457][967]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2021.02.24-00.48.11:457][967]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2021.02.24-00.48.11:457][967]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2021.02.24-00.48.11:558][967]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2021.02.24-00.48.11:688][967]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2021.02.24-00.48.11:688][967]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2021.02.24-00.48.11:688][967]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2021.02.24-00.48.11:688][967]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2021.02.24-00.48.11:688][967]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2021.02.24-00.48.11:747][967]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.02.24-00.48.11:747][967]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2021.02.24-00.48.11:786][967]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2021.02.24-00.48.11:786][967]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2021.02.24-00.48.11:793][967]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2021.02.24-00.48.11:851][967]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2021.02.24-00.48.11:912][967]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.02.24-00.48.11:914][967]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2021.02.24-00.48.11:915][967]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2021.02.24-00.48.11:915][967]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2021.02.24-00.48.11:925][967]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2021.02.24-00.48.11:925][967]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2021.02.24-00.48.11:972][967]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2021.02.24-00.48.11:972][967]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2021.02.24-00.48.12:097][967]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2021.02.24-00.48.12:097][967]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2021.02.24-00.48.12:114][967]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2021.02.24-00.48.12:185][967]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2021.02.24-00.48.12:185][967]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2021.02.24-00.48.12:210][967]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2021.02.24-00.48.12:319][967]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2021.02.24-00.48.12:400][967]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2021.02.24-00.48.12:432][967]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2021.02.24-00.48.12:462][967]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2021.02.24-00.48.12:462][967]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2021.02.24-00.48.12:500][967]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2021.02.24-00.48.12:500][967]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2021.02.24-00.48.12:514][967]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2021.02.24-00.48.12:514][967]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2021.02.24-00.48.12:530][967]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2021.02.24-00.48.12:561][967]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2021.02.24-00.48.12:620][967]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2021.02.24-00.48.12:621][967]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2021.02.24-00.48.12:621][967]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2021.02.24-00.48.12:621][967]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2021.02.24-00.48.12:621][967]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2021.02.24-00.48.12:657][967]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2021.02.24-00.48.12:657][967]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2021.02.24-00.48.12:657][967]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2021.02.24-00.48.12:657][967]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2021.02.24-00.48.12:674][967]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2021.02.24-00.48.12:708][967]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2021.02.24-00.48.12:708][967]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2021.02.24-00.48.12:742][967]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2021.02.24-00.48.12:775][967]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2021.02.24-00.48.12:822][967]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2021.02.24-00.48.12:838][967]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2021.02.24-00.48.12:838][967]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2021.02.24-00.48.12:839][967]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2021.02.24-00.48.12:841][967]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2021.02.24-00.48.12:844][967]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2021.02.24-00.48.12:953][967]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2021.02.24-00.48.13:044][967]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2021.02.24-00.48.13:044][967]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2021.02.24-00.48.13:044][967]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2021.02.24-00.48.13:044][967]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2021.02.24-00.48.13:053][967]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2021.02.24-00.48.13:053][967]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2021.02.24-00.48.13:053][967]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2021.02.24-00.48.13:053][967]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2021.02.24-00.48.13:063][967]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2021.02.24-00.48.13:063][967]LogModuleManager: Shutting down and abandoning module Core (216)
+[2021.02.24-00.48.13:063][967]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2021.02.24-00.48.13:145][967]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2021.02.24-00.48.13:146][967]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2021.02.24-00.48.13:156][967]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2021.02.24-00.48.13:191][967]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2021.02.24-00.48.13:191][967]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2021.02.24-00.48.13:205][967]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2021.02.24-00.48.13:257][967]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2021.02.24-00.48.13:288][967]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2021.02.24-00.48.13:288][967]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2021.02.24-00.48.13:327][967]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2021.02.24-00.48.13:355][967]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2021.02.24-00.48.13:439][967]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2021.02.24-00.48.13:475][967]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2021.02.24-00.48.13:493][967]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2021.02.24-00.48.13:493][967]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2021.02.24-00.48.13:493][967]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2021.02.24-00.48.13:510][967]LogXGEController: Cleaning working directory: C:/Users/eriko/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.02.24-00.48.13:511][967]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2021.02.24-00.48.13:528][967]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2021.02.24-00.48.13:543][967]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2021.02.24-00.48.13:554][967]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2021.02.24-00.48.13:575][967]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2021.02.24-00.48.13:575][967]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2021.02.24-00.48.13:580][967]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2021.02.24-00.48.13:604][967]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2021.02.24-00.48.13:614][967]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2021.02.24-00.48.13:633][967]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2021.02.24-00.48.13:683][967]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2021.02.24-00.48.13:683][967]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2021.02.24-00.48.13:683][967]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2021.02.24-00.48.13:684][967]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2021.02.24-00.48.13:697][967]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2021.02.24-00.48.13:709][967]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2021.02.24-00.48.13:728][967]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2021.02.24-00.48.13:756][967]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2021.02.24-00.48.13:791][967]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2021.02.24-00.48.13:791][967]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2021.02.24-00.48.13:792][967]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2021.02.24-00.48.13:884][967]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2021.02.24-00.48.14:094][967]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2021.02.24-00.48.14:107][967]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2021.02.24-00.48.14:120][967]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2021.02.24-00.48.14:125][967]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2021.02.24-00.48.14:126][967]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2021.02.24-00.48.14:135][967]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2021.02.24-00.48.14:144][967]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2021.02.24-00.48.14:144][967]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2021.02.24-00.48.14:144][967]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2021.02.24-00.48.14:181][967]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2021.02.24-00.48.14:232][967]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2021.02.24-00.48.14:232][967]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2021.02.24-00.48.14:232][967]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2021.02.24-00.48.14:232][967]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2021.02.24-00.48.14:236][967]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.02.24-00.48.14:236][967]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.02.24-00.48.14:288][967]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.02.24-00.48.14:288][967]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.02.24-00.48.14:306][967]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.02.24-00.48.14:318][967]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.02.24-00.48.14:328][967]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.02.24-00.48.14:339][967]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.02.24-00.48.14:379][967]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.02.24-00.48.14:379][967]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.02.24-00.48.14:385][967]LogHMD: Freeing OpenVRDLLHandle.
+[2021.02.24-00.48.14:385][967]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.02.24-00.48.14:403][967]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.02.24-00.48.14:403][967]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.02.24-00.48.14:403][967]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.02.24-00.48.14:403][967]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.02.24-00.48.14:430][967]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.02.24-00.48.14:448][967]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.02.24-00.48.14:577][967]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.02.24-00.48.14:602][967]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.02.24-00.48.14:602][967]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1205EE09-436A-8953-0F06-B99D0F344E6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=179480d54cbdb593fac23285cef5ec02%7C672e21cbc29e456a94eb7f2668d9ce9b%7C50576d9e-be4a-435d-8158-6ecdab1c41db&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2021.02.24-00.48.14:612][967]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.02.24-00.48.14:802][967]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.02.24-00.48.14:848][967]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.02.24-00.48.14:849][967]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.02.24-00.48.14:882][967]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.02.24-00.48.14:898][967]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.02.24-00.48.14:906][967]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.02.24-00.48.14:906][967]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.02.24-00.48.14:906][967]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.02.24-00.48.14:906][967]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.02.24-00.48.14:906][967]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.02.24-00.48.14:907][967]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.02.24-00.48.14:907][967]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.02.24-00.48.14:907][967]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.02.24-00.48.14:927][967]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.02.24-00.48.15:158][967]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.02.24-00.48.15:205][967]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.02.24-00.48.15:206][967]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.02.24-00.48.15:206][967]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.02.24-00.48.15:206][967]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.02.24-00.48.15:261][967]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.02.24-00.48.15:273][967]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.02.24-00.48.15:273][967]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.02.24-00.48.15:283][967]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.02.24-00.48.15:288][967]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.02.24-00.48.15:288][967]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.02.24-00.48.15:288][967]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.02.24-00.48.15:326][967]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.02.24-00.48.15:326][967]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.02.24-00.48.15:333][967]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.02.24-00.48.15:345][967]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.02.24-00.48.15:345][967]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.02.24-00.48.15:409][967]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.02.24-00.48.15:490][967]LogD3D11RHI: Shutdown
+[2021.02.24-00.48.15:490][967]LogD3D11RHI: CleanupD3DDevice
+[2021.02.24-00.48.16:335][967]LogExit: Exiting.
+[2021.02.24-00.48.16:362][967]Log file closed, 02/24/21 07:48:16

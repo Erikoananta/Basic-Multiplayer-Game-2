@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FPSGame",
+			"Path": "D:\\IKO Tutorial\\Udemy\\Multiplayer\\StealthGame 5.0\\Source\\FPSGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FPSGameEditor",
+			"Path": "D:\\IKO Tutorial\\Udemy\\Multiplayer\\StealthGame 5.0\\Source\\FPSGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

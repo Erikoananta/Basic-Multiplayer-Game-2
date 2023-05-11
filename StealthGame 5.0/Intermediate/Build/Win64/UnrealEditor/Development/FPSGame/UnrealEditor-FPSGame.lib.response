@@ -1,0 +1,36 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-FPSGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\FPSGameEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSBlackHole.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSAIGuard.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSCharacter.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSExtractionZone.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSGameMode.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSGameState.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSHUD.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSLaunchPad.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSPlayerController.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSProjectile.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPS_ObjectiveActor.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSGame.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSAIGuard.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSBlackHole.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSCharacter.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSExtractionZone.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSGame.init.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSGameMode.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSGameState.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSHUD.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSLaunchPad.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSPlayerController.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPSProjectile.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\FPS_ObjectiveActor.gen.cpp.obj"
+"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\Default.rc2.res"
+/OUT:"D:\IKO Tutorial\Udemy\Multiplayer\StealthGame 5.0\Intermediate\Build\Win64\UnrealEditor\Development\FPSGame\UnrealEditor-FPSGame.lib"
+/INCLUDE:IMPLEMENT_MODULE_FPSGame
